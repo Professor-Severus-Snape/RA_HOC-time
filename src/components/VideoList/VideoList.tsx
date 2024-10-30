@@ -1,5 +1,5 @@
 import Video from '../Video/Video';
-import TVideo from '../models/TVideo';
+import TVideo from '../../models/TVideo';
 
 interface IVideoListProps {
   list: TVideo[];

@@ -1,6 +1,6 @@
 // import DateTime from '../DateTime/DateTime';
 import DateTimePretty from '../DateTimePretty/DateTimePretty';
-import TVideo from '../models/TVideo';
+import TVideo from '../../models/TVideo';
 import './video.css';
 
 const Video = ({ url, date }: TVideo) => {
