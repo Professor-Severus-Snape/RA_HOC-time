@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/qd95742ia6jalmd3?svg=true)](https://ci.appveyor.com/project/Professor-Severus-Snape/ra-hoc-time)
+
 # Форматирование даты публикации
 
 Есть страница, содержащая список видеозаписей. 
