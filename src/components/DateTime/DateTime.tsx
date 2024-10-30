@@ -1,10 +1,6 @@
 import './dateTime.css';
 
-interface IDateTimeProps {
-  date: string;
-}
-
-const DateTime = ({ date }: IDateTimeProps) => {
+const DateTime = ({ date }: { date: string }) => {
   return <p className="date">{date}</p>;
 };
 

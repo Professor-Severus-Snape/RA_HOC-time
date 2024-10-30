@@ -6,7 +6,9 @@ interface IVideoListProps {
 }
 
 const VideoList = ({ list }: IVideoListProps) => {
-  return list.map((item) => <Video url={item.url} date={item.date} />);
+  return list.map((item) => (
+    <Video key={item.id} url={item.url} date={item.date} />
+  ));
 };
 
 export default VideoList;
